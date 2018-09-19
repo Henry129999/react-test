@@ -19,7 +19,8 @@ module.exports = {
     ],
     module: { //所有第三方模块的配置
         rules: [ //第三方规则
-            { test: /\.js|jsx$/,use:'babel-loader',exclude:/node_modules/ }
+            { test: /\.js|jsx$/,use:'babel-loader',exclude:/node_modules/ },
+            { test:/\.(css|scss)$/, loaders:['style-loader', 'css-loader', 'sass-loader'], exclude:/node_modules/}
         ]
     },
     resolve: {

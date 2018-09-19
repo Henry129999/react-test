@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './JsTest.scss';
+
 
 class JsTest extends React.Component {
     constructor (props) {
@@ -13,7 +15,7 @@ class JsTest extends React.Component {
 
         
         return (
-            <div>1</div>
+            <div className="js-test">1</div>
         )
     }
 
