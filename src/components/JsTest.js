@@ -13,7 +13,7 @@ class JsTest extends React.Component {
 
         
         return (
-            <div>1222</div>
+            <div>1</div>
         )
     }
 
